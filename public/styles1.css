@@ -1,0 +1,96 @@
+body {
+  background-image: linear-gradient(348deg, #B0EFEB, #F9F9F9 40.54%, #B0EFEB);
+}
+
+
+/*navigation Bar*/
+.nav-btn {
+    position: relative;
+    top: 8px;
+    left: 16px;
+    right: 8px;
+  }
+
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .nav-logo {
+    position: relative;
+    height: 80px;
+    width: 80px;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #161616;
+    position: relative;
+  }
+  
+  .nav-link {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .nav-item {
+    margin: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  
+  .hover-underline-animation {
+    position: relative;
+    color: #0087ca;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+
+.float-container {
+    padding: 20px;
+    position: relative;
+    padding: 15% 35%;
+}
+
+
+.card-header {
+  text-align: center;
+  padding: 3%;
+}
+
+.card-body {
+  padding: 5%;
+}
+
+.btn-design {
+  text-align: center;
+  padding: 4%;
+}
+
+.form-group {
+  padding: 2%;
+}
+
+.msg-design {
+  text-align: center;
+  padding: 3%;
+}
